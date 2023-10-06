@@ -32,7 +32,7 @@
 
 # Program:
 
-
+```
 
 CREATE TABLE employed(
   empid NUMBER,
@@ -59,7 +59,7 @@ CREATE TABLE sal_log (
 insert into employed values(1,'Shakthi','IT',1000000);
 insert into employed values(2,'Suju','SALES',500000)
 
-
+```
 
 
 # Create employee table
@@ -80,7 +80,7 @@ insert into employed values(2,'Suju','SALES',500000)
 
 # PLSQL Trigger code
 
-
+```
 -- Create the trigger
 CREATE OR REPLACE TRIGGER log_sal_update
 BEFORE UPDATE ON employed
@@ -119,7 +119,7 @@ SELECT * FROM employed;
 SELECT * FROM sal_log;
 
 
-
+```
 # Output:
 
 
